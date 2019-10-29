@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "judges-timekeeping-client-side-solution",
+    "id": "08b44dbe-277c-4692-b087-51d3b7f2b73b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/judges-timekeeping.sppkg"
+  }
+}

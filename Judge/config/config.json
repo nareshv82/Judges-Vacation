@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "judge-vacation-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/judgeVacationRequest/JudgeVacationRequestWebPart.js",
+          "manifest": "./src/webparts/judgeVacationRequest/JudgeVacationRequestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JudgeVacationRequestWebPartStrings": "lib/webparts/judgeVacationRequest/loc/{locale}.js"
+  }
+}
